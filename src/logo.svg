@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B5394" />
+      <stop offset="100%" stop-color="#1A73E8" />
+    </linearGradient>
+    <linearGradient id="gradTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16A085" />
+      <stop offset="100%" stop-color="#48C9B0" />
+    </linearGradient>
+  </defs>
+
+  <g id="isotipo-hexagonal">
+    
+    <g transform="rotate(0, 200, 180)">
+      <path d="M 200 65 L 290 117 L 290 185" fill="none" stroke="url(#gradBlue)" stroke-width="22" stroke-linejoin="miter"/>
+      <polygon points="270,175 310,175 290,210" fill="url(#gradBlue)"/>
+    </g>
+
+    <g transform="rotate(120, 200, 180)">
+      <path d="M 200 65 L 290 117 L 290 185" fill="none" stroke="url(#gradTeal)" stroke-width="22" stroke-linejoin="miter"/>
+      <polygon points="270,175 310,175 290,210" fill="url(#gradTeal)"/>
+    </g>
+
+    <g transform="rotate(240, 200, 180)">
+      <path d="M 200 65 L 290 117 L 290 185" fill="none" stroke="url(#gradBlue)" stroke-width="22" stroke-linejoin="miter"/>
+      <polygon points="270,175 310,175 290,210" fill="url(#gradBlue)"/>
+    </g>
+
+    <g id="letra-r-centro" transform="translate(15, -10)">
+      <path d="M 170 140 H 210 A 25 25 0 0 1 210 190 H 170 Z" fill="none" stroke="#2C3E50" stroke-width="20" stroke-linecap="square" stroke-linejoin="miter"/>
+      <line x1="170" y1="130" x2="170" y2="230" stroke="#2C3E50" stroke-width="20" stroke-linecap="square"/>
+      <line x1="195" y1="190" x2="225" y2="230" stroke="#2C3E50" stroke-width="20" stroke-linecap="square"/>
+    </g>
+
+  </g>
+
+  <text x="200" y="340" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="38" text-anchor="middle" fill="#333333" letter-spacing="1.5">
+    RENTAL <tspan fill="#1A73E8">CRM</tspan>
+  </text>
+</svg>
